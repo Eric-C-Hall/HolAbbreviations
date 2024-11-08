@@ -1,0 +1,59 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("parity_equations_helperScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/parity_equations_helperScript.sml")
+ (front-context-string . "open HolKernel P")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26407 13622 736997 695000))
+("parity_equationsScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/parity_equationsScript.sml")
+ (front-context-string . "open HolKernel P")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26398 660 115900 907000))
+("infnumScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/Utility/infnumScript.sml")
+ (front-context-string . "open HolKernel P")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26396 23344 550875 7000))
+("argminScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/Utility/argminScript.sml")
+ (front-context-string . "\nval _ = export_")
+ (rear-context-string . " >> gvs[]\nQED\n\n\n")
+ (position . 8241)
+ (last-modified 26396 23327 923649 954000))
+("useful_theoremsScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/useful_theoremsScript.sml")
+ (front-context-string . "\nval _ = export_")
+ (rear-context-string . "T_LIST_def]\nQED\n")
+ (position . 1434)
+ (last-modified 26396 23292 9233 601000))
+("state_machineScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/state_machineScript.sml")
+ (front-context-string . "open HolKernel P")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26383 8383 108705 968000))
+("trellisScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/trellisScript.sml")
+ (front-context-string . "open HolKernel P")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26383 8363 969205 268000))
+("convolutional_codesScript.sml"
+ (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/convolutional_codesScript.sml")
+ (front-context-string . "{(* Written by E")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26383 8343 565793 488000))
+("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . "(load \"~/Documen")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26383 8241 87035 38000))
+)
