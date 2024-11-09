@@ -28,6 +28,9 @@
 (setq-default abbrev-mode t)
 (add-hook 'kill-emacs-hook 'write-abbrev-file)
 
+(add-hook 'holscript-mode-hook
+          (lambda () (display-fill-column-indicator-mode 1) (set-fill-column 80)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
