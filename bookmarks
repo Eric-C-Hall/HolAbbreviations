@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("parity_equations_helperScript.sml"
+(("fsgraph"
+ (filename . "~/Documents/Manual/ANU/HOL/HOL/examples/generic_graphs/fsgraphScript.sml")
+ (front-context-string . "(*--------------")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26637 50818 418042 722000))
+("parity_equations_helperScript.sml"
  (filename . "~/Documents/Manual/ANU/HOL/MyTheorems/ConvolutionalCodes/parity_equations_helperScript.sml")
  (front-context-string . "open HolKernel P")
  (rear-context-string)
