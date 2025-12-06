@@ -21,6 +21,8 @@
 
 ;; (global-set-key (kbd "M-n f") <TODO>)
 
+(setq abbrev-all-caps t)
+
 (electric-indent-mode 0)
 (global-aggressive-indent-mode 1)
 (add-to-list 'aggressive-indent-excluded-modes 'html-mode)
