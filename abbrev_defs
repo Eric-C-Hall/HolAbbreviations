@@ -243,7 +243,7 @@
     ("npd" "no_prev_data" nil :count 1)
     ("nzp" "nzp" nil :count 1)
     ("ol" "output_length" nil :count 32)
-    ("ori" "origin" nil :count 12)
+    ("ori" "origin" nil :count 13)
     ("pa" "pop_assum" nil :count 215)
     ("pampt" "pop_assum mp_tac" nil :count 3)
     ("pe" "parity_equation" nil :count 11)
