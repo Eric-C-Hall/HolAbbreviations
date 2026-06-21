@@ -4,13 +4,6 @@
 (setq-default indent-tabs-mode nil)
 (set-face-attribute 'region nil :background "#666")
 
-;; Broken because "C-S-q a" doesn't work, although "C-S-q" does, and "a" does.
-;;(global-set-key (kbd "C-S-q a") "qmatch_goalsub_abbrev_tac")
-;;(global-set-key (kbd "C-S-q A") "qmatch_asmsub_abbrev_tac")
-;;(global-set-key (kbd "C-S-q u") "unabbrev_all_tac")
-;;(global-set-key (kbd "C-S-q p") "qpat_x_assum")
-;;(global-set-key (kbd "C-S-q P") "qpat_assum")
-;;(global-set-key (kbd "C-S-q k") "kall_tac")
 (global-set-key (kbd "C-) C-)") "∞")
 (global-set-key (kbd "C-( -") "−∞")
 (global-set-key (kbd "C-( =") "+∞")
@@ -19,13 +12,7 @@
 
 ;; Note: emacs bookmarks seem useful
 
-;; (global-set-key (kbd "M-n f") <TODO>)
-
 (setq abbrev-all-caps t)
-
-(electric-indent-mode 0)
-(global-aggressive-indent-mode 1)
-(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
 
 (setq-default abbrev-mode t)
 (add-hook 'kill-emacs-hook 'write-abbrev-file)
@@ -47,3 +34,14 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Displaying a warning if aggressive-indent was not installed was written by ChatGPT
+(if (require 'aggressive-indent nil 'noerror)
+    (progn
+      (electric-indent-mode 0)
+      (global-aggressive-indent-mode 1)
+      (add-to-list 'aggressive-indent-excluded-modes 'html-mode)
+      )
+  (display-warning
+   'init
+   "aggressive-indent is not installed; automatic indentation disabled."
+   :warning))
