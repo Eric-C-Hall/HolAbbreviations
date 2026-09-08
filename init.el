@@ -10,6 +10,8 @@
 (global-set-key (kbd "C-( (") "−")
 (global-unset-key (kbd "C-x C-u"))
 
+(setq column-number-mode 1)
+
 ;; Note: emacs bookmarks seem useful
 
 (setq abbrev-all-caps t)
